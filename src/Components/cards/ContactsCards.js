@@ -9,6 +9,7 @@ import {
 import { contactsUkr } from "../../contentSettings/configs";
 import { useState, memo } from "react";
 import styled from "styled-components";
+import arrow from "../../assets/icons/cursor_right.svg";
 
 const ContactsCards = () => {
   const [phoneToggle, setPhoneToggle] = useState(false);
@@ -49,7 +50,11 @@ const ContactsCards = () => {
           <InfoWrapper>
             <Info isInfoHide={animStates[index]}>{info}</Info>
           </InfoWrapper>
-        ) : null}
+        ) : (
+          <ArrowWrapper>
+            <ImgArrow width="30px" src={arrow} alt="arrow_icon" />
+          </ArrowWrapper>
+        )}
       </ItemContainer>
       {index !== 1 ? <BackgroundBlock isTransparent={index !== 0} /> : null}
     </CardWrapper>
@@ -62,7 +67,33 @@ const InfoWrapper = styled.div`
   text-align: center;
 `;
 
-const ImgArrow = styled.img``;
+const ArrowWrapper = styled.div`
+  margin-top: 90px;
+`;
+
+const ImgArrow = styled.img`
+  animation-name: moveArrow;
+  animation-duration: 3000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+
+  @keyframes moveArrow {
+    0% {
+      opacity: 0;
+      transform: translateX(-15px);
+    }
+
+    50% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+
+    100% {
+      opacity: 0;
+      transform: translateX(15px);
+    }
+  }
+`;
 
 const Info = styled.p`
   width: 170px;
