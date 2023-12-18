@@ -27,7 +27,7 @@
       "react-app/jest"
     ]
   },
-  "homepage": "https://valerii-hyrchenko.github.io/RMK-Mykolayiv/",
+  "homepage": "https://rmkmykolaiv.github.io/business_card/",
   "browserslist": {
     "production": [
       ">0.2%",
