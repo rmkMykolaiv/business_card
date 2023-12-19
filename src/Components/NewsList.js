@@ -197,10 +197,14 @@ const ContentWrap = styled.div`
   @media (max-width: 800px) {
     max-width: 100%;
   }
+
+  @media (max-width: 480px) {
+    padding: 0 25px 20px;
+  }
 `;
 
 const ArticleImgWrap = styled.div`
-  max-width: 350px;
+  max-width: 320px;
   border-radius: 15px;
 `;
 
