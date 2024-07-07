@@ -1,14 +1,16 @@
 {
   "files": {
-    "main.js": "/static/js/main.8092b0bd.js",
+    "main.js": "/static/js/main.ec12ff60.js",
     "static/media/home_background.jpg": "/static/media/home_background.7d85ae1e92741698a66f.jpg",
     "static/media/home_background_1090.jpg": "/static/media/home_background_1090.6252b6371787d4706118.jpg",
     "static/media/business_line_background.webp": "/static/media/business_line_background.d2a0c92c220af45a283e.webp",
     "static/media/first_project_stage.webp": "/static/media/first_project_stage.fd06f4874eaef52e06ac.webp",
     "static/media/mission.webp": "/static/media/mission.7d616787c26cf71774ad.webp",
+    "static/media/cement_factory.webp": "/static/media/cement_factory.e928f157d14829f5c062.webp",
     "static/media/target.webp": "/static/media/target.88e37f237fae917df790.webp",
     "static/media/assembling_project_stage.webp": "/static/media/assembling_project_stage.c1938d9241d4bd7433d1.webp",
     "static/media/factory.webp": "/static/media/factory.db9887d8633818aa7064.webp",
+    "static/media/electrical_installation.webp": "/static/media/electrical_installation.344ed603921fc746ff77.webp",
     "static/media/manager.webp": "/static/media/manager.f371c857f9040386b9c8.webp",
     "static/media/distribution_img_1.webp": "/static/media/distribution_img_1.e6b17d96dabb01e0f3bb.webp",
     "static/media/final_project_stage.webp": "/static/media/final_project_stage.8ab51f8035410beefc36.webp",
@@ -30,9 +32,9 @@
     "static/media/scroll_to_top_arrow.svg": "/static/media/scroll_to_top_arrow.92519fdfa44201a2a558a97c94c5efed.svg",
     "static/media/email.svg": "/static/media/email.bc557e5aef7932daf51ae0a634ec88d4.svg",
     "static/media/list_marker.svg": "/static/media/list_marker.f72d9e67e3d7a1ab13dc6906afbf8d43.svg",
-    "main.8092b0bd.js.map": "/static/js/main.8092b0bd.js.map"
+    "main.ec12ff60.js.map": "/static/js/main.ec12ff60.js.map"
   },
   "entrypoints": [
-    "static/js/main.8092b0bd.js"
+    "static/js/main.ec12ff60.js"
   ]
 }
