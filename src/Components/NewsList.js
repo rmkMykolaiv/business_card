@@ -37,11 +37,17 @@ const NewsList = () => {
             <NewsTitle isArticle={true}>
               {selectedArticle.attributes.title}
             </NewsTitle>
-            {selectedArticle.attributes.article.map((item) => (
-              <ArticleParagraph key={item.id}>
-                {item.paragraph}
-              </ArticleParagraph>
-            ))}
+            <ArticleWrap>
+              {selectedArticle.attributes.article.map((item) => (
+                <ArticleParagraph
+                  key={item.id}
+                  isPostTitle={item.isPostTitle}
+                  isShowMarker={item.isShowMarker}
+                >
+                  {item.paragraph}
+                </ArticleParagraph>
+              ))}
+            </ArticleWrap>
           </ContentWrap>
         </ArticleFlexWrap>
       )}
@@ -204,7 +210,7 @@ const ContentWrap = styled.div`
 `;
 
 const ArticleImgWrap = styled.div`
-  max-width: 320px;
+  max-width: 352px;
   border-radius: 15px;
 `;
 
@@ -223,7 +229,25 @@ const GoBackBtn = styled.img`
   width: 100%;
 `;
 
-const ArticleParagraph = styled.p`
-  text-indent: 30px;
-  line-height: 1.6em;
+const ArticleWrap = styled.ul``;
+
+const ArticleParagraph = styled.li`
+  text-indent: 15px;
+  position: relative;
+  line-height: 22px;
+  ${({ isPostTitle }) => (isPostTitle ? `margin: 16px 0;` : "")};
+  ${({ isShowMarker }) =>
+    isShowMarker
+      ? `
+        margin: 0 0 0 40px;
+        text-indent: 0;
+        padding: 0 0 0 15px;
+        &::marker {
+          content: "❑";
+        }`
+      : ""};
+
+  &:last-of-type {
+    margin: 16px 0 0 0;
+  }
 `;

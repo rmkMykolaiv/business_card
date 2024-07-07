@@ -96,11 +96,11 @@ const ImgWrap = styled.div`
   }
 
   @media (max-width: 480px) {
-    width: 175px;
+    width: 165px;
   }
 
   @media (max-width: 360px) {
-    width: 165px;
+    width: 155px;
   }
 `;
 

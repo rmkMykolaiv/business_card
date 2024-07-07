@@ -12,6 +12,8 @@ import supplyProjectStage from "../assets/img/supply_project_stage.webp";
 import assemblingProjectStage from "../assets/img/assembling_project_stage.webp";
 import finalProjectStage from "../assets/img/final_project_stage.webp";
 import factory from "../assets/img/factory.webp";
+import cementFactory from "../assets/img/cement_factory.webp";
+import electrical_installation from "../assets/img/electrical_installation.webp";
 import generator from "../assets/img/generator.webp";
 
 let id = Date.now();
@@ -239,6 +241,136 @@ export const articlesNewsUkr = [
   {
     id: id++,
     attributes: {
+      title: `Обслуговування та поточний ремонт, ПрАТ "Івано-Франківськцемент"`,
+      img: cementFactory,
+      article: [
+        {
+          id: id++,
+          paragraph: `Наша компанія вдячна за довіру від лідера українського ринку з виробництва цементу у залученні
+          до робіт по забезпеченню надійної роботи технологічного обладнання та інфраструктури.`,
+          isPostTitle: false,
+          isShowMarker: false,
+        },
+        {
+          id: id++,
+          paragraph: `Спеціалістами ТОВ «РМК-Миколаїв» виконуються наступні роботи:`,
+          isPostTitle: true,
+          isShowMarker: false,
+        },
+        {
+          id: id++,
+          paragraph: `обслуговування та ремонт приводів виконавчих механізмів;`,
+          isPostTitle: false,
+          isShowMarker: true,
+        },
+        {
+          id: id++,
+          paragraph: `центрування двигунів;`,
+          isPostTitle: false,
+          isShowMarker: true,
+        },
+        {
+          id: id++,
+          paragraph: `обслуговування та ремонт кабельних трас та ліній;`,
+          isPostTitle: false,
+          isShowMarker: true,
+        },
+        {
+          id: id++,
+          paragraph: `обслуговування та ремонт пультів місцевого управління, засобів безпеки та аварійної зупинки;`,
+          isPostTitle: false,
+          isShowMarker: true,
+        },
+        {
+          id: id++,
+          paragraph: `обслуговування та ремонт систем електроживлення та освітлення виробничих ділянок та адміністративних будівель.`,
+          isPostTitle: false,
+          isShowMarker: true,
+        },
+        {
+          id: id++,
+          paragraph: `Період виконання робіт: 2024р.`,
+          isPostTitle: false,
+          isShowMarker: false,
+        },
+      ],
+      readMore: "читати далі...",
+    },
+  },
+  {
+    id: id++,
+    attributes: {
+      title: `Комплекс електромонтажних робіт для ПрАТ "Івано-Франківськцемент"`,
+      img: electrical_installation,
+      article: [
+        {
+          id: id++,
+          paragraph: `Спеціалістами компанії виконані відповідальні роботи з 
+          підключення шнеків, аспірації, повітродувок та іншого технологічного обладнання, а саме:`,
+          isPostTitle: true,
+          isShowMarker: false,
+        },
+        {
+          id: id++,
+          paragraph: `Монтаж та підключення електричних шаф та перетворювачів частоти;`,
+          isPostTitle: false,
+          isShowMarker: true,
+        },
+        {
+          id: id++,
+          paragraph: `Монтаж приладів КВП;`,
+          isPostTitle: false,
+          isShowMarker: true,
+        },
+        {
+          id: id++,
+          paragraph: `Монтаж кабельних  трас;`,
+          isPostTitle: false,
+          isShowMarker: true,
+        },
+        {
+          id: id++,
+          paragraph: `Монтаж та підключення силових, контрольних та мережевих кабелів;`,
+          isPostTitle: false,
+          isShowMarker: true,
+        },
+        {
+          id: id++,
+          paragraph: `Монтаж локальних постів та приладів керування;`,
+          isPostTitle: false,
+          isShowMarker: true,
+        },
+        {
+          id: id++,
+          paragraph: `Участь разом з представниками Замовника у пуско-налагоджувальних роботах.`,
+          isPostTitle: false,
+          isShowMarker: true,
+        },
+        {
+          id: id++,
+          paragraph: `Всі роботи були виконані якісно та у дуже стислі строки.`,
+          isPostTitle: false,
+          isShowMarker: false,
+        },
+        {
+          id: id++,
+          paragraph: `Ми вдячні за надану довіру та можливість продемонструвати наш досвід для задач різного ступеня складності.`,
+          isPostTitle: false,
+          isShowMarker: false,
+        },
+        {
+          id: id++,
+          paragraph: `Період виконання робіт: квітень 2024р.`,
+          isPostTitle: false,
+          isShowMarker: false,
+        },
+      ],
+      readMore: "читати далі...",
+    },
+  },
+  {
+    id: id++,
+    attributes: {
       title: "Участь у відновленні заводу після російської агресії",
       img: factory,
       article: [
@@ -246,56 +378,82 @@ export const articlesNewsUkr = [
           id: id++,
           paragraph: `Наша компанія була вдячна за надану довіру та можливість прийняти участь у відновленні заводу, 
           який зазнав великих руйнувань внаслідок російської агресії.`,
+          isPostTitle: false,
+          isShowMarker: false,
         },
         {
           id: id++,
           paragraph: `В якості підрядника було виконано великий спектр електромонтажних та пусконалагоджувальних робіт, 
           серед яких демонтаж пошкодженого устаткування та монтаж нового, монтаж силових та контрольних кабельних трас, 
           підключення та налагоджування обладнання.`,
+          isPostTitle: false,
+          isShowMarker: false,
         },
         {
           id: id++,
           paragraph: `В процесі виконання робіт прокладено:`,
+          isPostTitle: true,
+          isShowMarker: false,
         },
         {
           id: id++,
-          paragraph: `- більше 10 км силових кабелів;`,
+          paragraph: `більше 10 км силових кабелів;`,
+          isPostTitle: false,
+          isShowMarker: true,
         },
         {
           id: id++,
-          paragraph: `- більше 12 км контрольних кабелів;`,
+          paragraph: `більше 12 км контрольних кабелів;`,
+          isPostTitle: false,
+          isShowMarker: true,
         },
         {
           id: id++,
-          paragraph: `- біля 6 км трубки пневматики;`,
+          paragraph: `біля 6 км трубки пневматики;`,
+          isPostTitle: false,
+          isShowMarker: true,
         },
         {
           id: id++,
-          paragraph: `- більше 10 км різноманітних кабельних конструкцій.`,
+          paragraph: `більше 10 км різноманітних кабельних конструкцій.`,
+          isPostTitle: false,
+          isShowMarker: true,
         },
         {
           id: id++,
           paragraph: `Використовувались матеріали від провідних виробників:`,
+          isPostTitle: true,
+          isShowMarker: false,
         },
         {
           id: id++,
-          paragraph: `- кабельна продукція Lapp, OLFLEX CLASSIC 115, 110;`,
+          paragraph: `кабельна продукція Lapp, OLFLEX CLASSIC 115, 110;`,
+          isPostTitle: false,
+          isShowMarker: true,
         },
         {
           id: id++,
-          paragraph: `- мережеві кабелі ETHERLINE H CAT.5e;`,
+          paragraph: `мережеві кабелі ETHERLINE H CAT.5e;`,
+          isPostTitle: false,
+          isShowMarker: true,
         },
         {
           id: id++,
-          paragraph: `- кабельні конструкції - OBO Bettermann.`,
+          paragraph: `кабельні конструкції - OBO Bettermann.`,
+          isPostTitle: false,
+          isShowMarker: true,
         },
         {
           id: id++,
           paragraph: `Не дивлячись на суттєві ризики виконання робіт у прифронтовій зоні, всі роботи були виконані вчасно та якісно.`,
+          isPostTitle: false,
+          isShowMarker: false,
         },
         {
           id: id++,
           paragraph: `Період виконання робіт: липень – вересень 2023р.`,
+          isPostTitle: false,
+          isShowMarker: false,
         },
       ],
       readMore: "читати далі...",
@@ -311,46 +469,68 @@ export const articlesNewsUkr = [
           id: id++,
           paragraph: `Перед нашою компанією постало завдання підключити до мереж існуючої ТП дизель-генератор (ДГ) 1250 кВА 
                       (Standby) відповідно до розробленої проектної документації.`,
+          isPostTitle: false,
+          isShowMarker: false,
         },
         {
           id: id++,
           paragraph: `В рамках цих робіт ми виконали:`,
+          isPostTitle: true,
+          isShowMarker: false,
         },
         {
           id: id++,
-          paragraph: `- підготували фундамент для встановлення ДГ;`,
+          paragraph: `підготували фундамент для встановлення ДГ;`,
+          isPostTitle: false,
+          isShowMarker: true,
         },
         {
           id: id++,
-          paragraph: `- проклали кабельні траси, використовуючи лотки OBO Bettermann;`,
+          paragraph: `проклали кабельні траси, використовуючи лотки OBO Bettermann;`,
+          isPostTitle: false,
+          isShowMarker: true,
         },
         {
           id: id++,
-          paragraph: `- проклали кабелі ВВГнг необхідного перерізу в траншеях та по кабельних конструкціях;`,
+          paragraph: `проклали кабелі ВВГнг необхідного перерізу в траншеях та по кабельних конструкціях;`,
+          isPostTitle: false,
+          isShowMarker: true,
         },
         {
           id: id++,
-          paragraph: `- проклали кабелі власних потреб ДГ;`,
+          paragraph: `проклали кабелі власних потреб ДГ;`,
+          isPostTitle: false,
+          isShowMarker: true,
         },
         {
           id: id++,
-          paragraph: `- виконали монтаж зовнішнього контуру заземлення (OBO Bettermann);`,
+          paragraph: `виконали монтаж зовнішнього контуру заземлення (OBO Bettermann);`,
+          isPostTitle: false,
+          isShowMarker: true,
         },
         {
           id: id++,
-          paragraph: `- підключили обладнання.`,
+          paragraph: `підключили обладнання.`,
+          isPostTitle: false,
+          isShowMarker: true,
         },
         {
           id: id++,
           paragraph: `Всі роботи були виконані вчасно та якісно.`,
+          isPostTitle: false,
+          isShowMarker: false,
         },
         {
           id: id++,
           paragraph: `Місце проведення робіт: м. Миколаїв.`,
+          isPostTitle: false,
+          isShowMarker: false,
         },
         {
           id: id++,
           paragraph: `Період виконання робіт: травень 2023р.`,
+          isPostTitle: false,
+          isShowMarker: false,
         },
       ],
       readMore: "читати далі...",
