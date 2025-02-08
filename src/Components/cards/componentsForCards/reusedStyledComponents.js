@@ -128,7 +128,7 @@ export const ItemContainer = styled.div`
   position: relative;
   z-index: 5;
   height: 260px;
-  width: 180px;
+  width: 200px;
   padding: 20px 20px 40px;
   background-color: rgb(255, 255, 255);
   border: 4px solid rgb(82, 155, 45);
@@ -147,7 +147,7 @@ export const ItemContainer = styled.div`
       }
 
       ${Title} {
-        width: 220px;
+        width: 240px;
       }
 
     `}
@@ -235,20 +235,21 @@ export const ItemContainer = styled.div`
 `;
 
 export const ImgWrapper = styled.div`
-  max-width: 155px;
+  max-width: 195px;
   margin: 0 auto;
   padding: 10px 0 0;
 `;
 
 export const Img = styled.img`
   width: 100%;
+  border-radius: 25px;
 `;
 
 export const Title = styled.p`
   position: absolute;
   bottom: 42px;
   left: 0;
-  width: 221px;
+  width: 241px;
   padding: 12px 0;
   font-size: 1.1em;
   font-weight: 700;

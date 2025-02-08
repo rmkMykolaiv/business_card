@@ -9,10 +9,8 @@ import AssemblyDetails from "../sections/AssemblyDetails";
 import ProjectsDetails from "../sections/ProjectsDetails";
 import DistributionDetails from "../sections/DistributionDetails";
 import { businessLineUkr } from "../contentSettings/configs";
-import Footer from "../Components/Footer";
 import { useContext, memo } from "react";
 import { PagesContext } from "../context/pagesContext";
-import businessLineBg from "../assets/img/business_line_background.webp";
 
 const BusinessLine = () => {
   const { businessLineRef, currentDetails, chooseBusinessDetails } =
@@ -48,7 +46,6 @@ const BusinessLine = () => {
         </WrapperForOnClickEvent>
         {renderChosenDetails()}
       </SectionWrapper>
-      <Footer />
     </BackgroundWrap>
   );
 };
@@ -59,7 +56,7 @@ const BackgroundWrap = styled.div`
   scroll-margin-top: 100px;
   position: relative;
   padding-top: 200px;
-  background-image: url(${businessLineBg});
+  background-color: #ffffff;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

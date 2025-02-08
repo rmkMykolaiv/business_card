@@ -19,7 +19,6 @@ const Contacts = () => {
           <ContactsCards />
         </ContactsFlexWrapper>
       </SectionWrapper>
-      <Footer />
     </BackgroundWrapper>
   );
 };
@@ -29,7 +28,7 @@ export default memo(Contacts);
 const BackgroundWrapper = styled.div`
   position: relative;
   scroll-margin-top: 100px;
-  background-color: rgb(240, 240, 240);
+  background-color: #ffffff;
 
   @media (max-width: 1090px) {
     scroll-margin-top: 70px;
