@@ -16,6 +16,8 @@ import cementFactory from "../assets/img/cement_factory.webp";
 import electrical_installation from "../assets/img/electrical_installation.webp";
 import generator from "../assets/img/generator.webp";
 import FC6kV from "../assets/img/FC6kV.jpg";
+import dimateo from "../assets/img/dimateo.jpg";
+import tp2 from "../assets/img/tp2.jpg";
 
 let id = Date.now();
 
@@ -312,6 +314,92 @@ export const distributionDetailsUkr = {
 };
 
 export const articlesNewsUkr = [
+  {
+    id: id++,
+    attributes: {
+      title: `Комплекс робіт з підключення італійської технологічної лінії Dimateo`,
+      img: dimateo,
+      article: [
+        {
+          id: id++,
+          paragraph: `Спеціалісти нашої компанії виконали відповідальні роботи з підключення технологічної лінії у відповідності до вимог та схем Виробника обладнання.`,
+          isPostTitle: false,
+          isShowMarker: false,
+        },
+        {
+          id: id++,
+          paragraph: `У рамках даних робіт було виконано:`,
+          isPostTitle: true,
+          isShowMarker: false,
+        },
+        {
+          id: id++,
+          paragraph: `монтаж та підключення комплектних електричних шаф;`,
+          isPostTitle: false,
+          isShowMarker: true,
+        },
+        {
+          id: id++,
+          paragraph: `монтаж та підключення більше 10км силових та контрольних кабельних ліній;`,
+          isPostTitle: false,
+          isShowMarker: true,
+        },
+        {
+          id: id++,
+          paragraph: `підключення двигунів, термісторів двигунів, постів керування, датчиків кінцевого положення, давачів рівня, давачі обертів, датчиків температури та вібрації підшипників, датчики тиску та температури та інші.`,
+          isPostTitle: false,
+          isShowMarker: true,
+        },
+        {
+          id: id++,
+          paragraph: `Підключення комплектного технологічного обладнання від провідних Виробників це можливість ознайомитись з сучасними технічними рішеннями та необхідний досвід в розумінні технічної Документації та вдосконаленні робіт з його підключення.`,
+          isPostTitle: false,
+          isShowMarker: false,
+        },
+        {
+          id: id++,
+          paragraph: `Період виконання робіт: 2025р.`,
+          isPostTitle: false,
+          isShowMarker: false,
+        },
+      ],
+      readMore: "читати далі...",
+    },
+  },
+  {
+    id: id++,
+    attributes: {
+      title: "Комплекс робіт з підключення перетворювача частоти 6кВ",
+      img: FC6kV,
+      article: [
+        {
+          id: id++,
+          paragraph: `Спеціалістами нашої компанії виконані роботи з підключення унікального та інноваційного перетворювача частоти  6кВ Innomotics Perfect Harmony GH180, 5.5 МВт. Ми вдячні Замовнику за довіру та можливість прийняти участь в його інсталяції.`,
+          isPostTitle: false,
+          isShowMarker: false,
+        },
+        {
+          id: id++,
+          paragraph: `На території України експлуатується дуже невелика кількість подібного типу та потужності високотехнологічного обладнання.`,
+          isPostTitle: false,
+          isShowMarker: false,
+        },
+        {
+          id: id++,
+          paragraph: `Всі роботи були виконані якісно та в стислі строки.`,
+          isPostTitle: false,
+          isShowMarker: false,
+        },
+        {
+          id: id++,
+          paragraph: `Період виконання робіт: січень 2025р.`,
+          isPostTitle: false,
+          isShowMarker: false,
+        },
+      ],
+      readMore: "читати далі...",
+    },
+  },
   {
     id: id++,
     attributes: {
@@ -613,30 +701,24 @@ export const articlesNewsUkr = [
   {
     id: id++,
     attributes: {
-      title: "Комплекс робіт з підключення перетворювача частоти 6кВ",
-      img: FC6kV,
+      title: "Технічне переоснащення ТП-2 ПрАТ«Дікергофф Цемент Україна» філія «ЮГцемент»",
+      img: tp2,
       article: [
         {
           id: id++,
-          paragraph: `Спеціалістами нашої компанії виконані роботи з підключення унікального та інноваційного перетворювача частоти  6кВ Innomotics Perfect Harmony GH180, 5.5 МВт. Ми вдячні Замовнику за довіру та можливість прийняти участь в його інсталяції.`,
+          paragraph: `Наша компанія взяла участь у технічному переоснащенні ТП-2, що підвищило надійність та безпеку експлуатації електроустановки, яка забезпечує живлення технологічного процесу.`,
           isPostTitle: false,
           isShowMarker: false,
         },
         {
           id: id++,
-          paragraph: `На території України експлуатується дуже невелика кількість подібного типу та потужності високотехнологічного обладнання.`,
+          paragraph: `Усі роботи виконано відповідно до затвердженої проєктної документації та в установлені строки під час планової зупинки виробництва.`,
           isPostTitle: false,
           isShowMarker: false,
         },
         {
           id: id++,
-          paragraph: `Всі роботи були виконані якісно та в стислі строки.`,
-          isPostTitle: false,
-          isShowMarker: false,
-        },
-        {
-          id: id++,
-          paragraph: `Період виконання робіт: січень 2025р.`,
+          paragraph: `Період виконання робіт: 2020р.`,
           isPostTitle: false,
           isShowMarker: false,
         },
