@@ -15,6 +15,7 @@ import factory from "../assets/img/factory.webp";
 import cementFactory from "../assets/img/cement_factory.webp";
 import electrical_installation from "../assets/img/electrical_installation.webp";
 import generator from "../assets/img/generator.webp";
+import FC6kV from "../assets/img/FC6kV.jpg";
 
 let id = Date.now();
 
@@ -206,7 +207,7 @@ export const contactsUkr = [
 export const missionUkr = {
   id: id++,
   text: "ефективні, безпечні та якісні рішення",
-  footerName: "© 2023 РМК-МИКОЛАЇВ",
+  footerName: "© 2021 РМК-МИКОЛАЇВ",
 };
 
 export const sectionsTitles = {
@@ -602,6 +603,40 @@ export const articlesNewsUkr = [
         {
           id: id++,
           paragraph: `Період виконання робіт: травень 2023р.`,
+          isPostTitle: false,
+          isShowMarker: false,
+        },
+      ],
+      readMore: "читати далі...",
+    },
+  },
+  {
+    id: id++,
+    attributes: {
+      title: "Комплекс робіт з підключення перетворювача частоти 6кВ",
+      img: FC6kV,
+      article: [
+        {
+          id: id++,
+          paragraph: `Спеціалістами нашої компанії виконані роботи з підключення унікального та інноваційного перетворювача частоти  6кВ Innomotics Perfect Harmony GH180, 5.5 МВт. Ми вдячні Замовнику за довіру та можливість прийняти участь в його інсталяції.`,
+          isPostTitle: false,
+          isShowMarker: false,
+        },
+        {
+          id: id++,
+          paragraph: `На території України експлуатується дуже невелика кількість подібного типу та потужності високотехнологічного обладнання.`,
+          isPostTitle: false,
+          isShowMarker: false,
+        },
+        {
+          id: id++,
+          paragraph: `Всі роботи були виконані якісно та в стислі строки.`,
+          isPostTitle: false,
+          isShowMarker: false,
+        },
+        {
+          id: id++,
+          paragraph: `Період виконання робіт: січень 2025р.`,
           isPostTitle: false,
           isShowMarker: false,
         },
