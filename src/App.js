@@ -3,7 +3,6 @@ import Logo from "./Components/forHeader/Logo";
 import Home from "./sections/Home";
 import BusinessLine from "./sections/BusinessLine";
 import AboutCompany from "./sections/AboutCompany";
-import Mission from "./sections/Mission";
 import ProjectStages from "./sections/ProjectStages";
 import Contacts from "./sections/Contacts";
 import News from "./sections/News";
@@ -54,7 +53,6 @@ const App = () => {
       <GeneralPageContainer>
         <BusinessLine />
         <AboutCompany />
-        <Mission />
         <ProjectStages />
         <Contacts />
         <News />

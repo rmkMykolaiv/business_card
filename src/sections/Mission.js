@@ -5,6 +5,8 @@ import { SectionWrapper } from "../Components/cards/componentsForCards/reusedSty
 import { DetailsWrap } from "../Components/cards/componentsForCards/reusedStyledComponents";
 import photoImg from "../assets/img/manager.webp";
 
+//outdated component
+
 const Mission = () => {
   const { fullDescription1, fullDescription2, name, position } =
     aboutCompanyUkr[0];

@@ -2,9 +2,9 @@ import { memo } from "react";
 import arrow from "../assets/icons/arrow_title.svg";
 import styled from "styled-components";
 
-const SectionTitleWithArrows = ({ isNews, children }) => {
+const SectionTitleWithArrows = ({ isCenter, children }) => {
   return (
-    <TitleWrapper isNews={isNews}>
+    <TitleWrapper isCenter={isCenter}>
       <ArrowsTitleContainer>
         {[...new Array(3)].map((item, index) => {
           let id = Math.floor(Math.random() * 10000) * (index + 1);
@@ -24,11 +24,11 @@ export default memo(SectionTitleWithArrows);
 
 const TitleWrapper = styled.div`
   display: flex;
-  margin: 0 0 20px 90px;
+  margin: 0 0 20px 10px;
   align-items: center;
 
-  ${({ isNews }) =>
-    isNews
+  ${({ isCenter }) =>
+    isCenter
       ? `
         justify-content: center;
 

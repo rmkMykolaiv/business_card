@@ -13,7 +13,7 @@ const News = () => {
     <NewsWrapper ref={newsRef}>
       <SectionWrapper>
         <WrapperForOnClickEvent onClick={() => setSelectedArticle(null)}>
-          <SectionTitleWithArrows isNews={true}>
+          <SectionTitleWithArrows>
             {sectionsTitles.news.text}
           </SectionTitleWithArrows>
         </WrapperForOnClickEvent>

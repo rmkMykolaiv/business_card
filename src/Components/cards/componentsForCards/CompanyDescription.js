@@ -2,6 +2,8 @@ import { memo } from "react";
 import styled from "styled-components";
 import { aboutCompanyUkr } from "../../../contentSettings/configs";
 
+//outdated component
+
 const CompanyDescription = () => {
   return (
     <DescriptionFlexContainer>

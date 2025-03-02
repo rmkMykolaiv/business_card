@@ -2,7 +2,7 @@ import ContactsCards from "../Components/cards/ContactsCards";
 import styled from "styled-components";
 import Footer from "../Components/Footer";
 import { SectionWrapper } from "../Components/cards/componentsForCards/reusedStyledComponents";
-import SectionTitleHeadline from "../Components/SectionTitleHeadline";
+import SectionTitleWithArrows from "../Components/SectionTitleWithArrows";
 import { sectionsTitles } from "../contentSettings/configs";
 import { useContext, memo } from "react";
 import { PagesContext } from "../context/pagesContext";
@@ -11,10 +11,10 @@ const Contacts = () => {
   const { contactsRef } = useContext(PagesContext);
   return (
     <BackgroundWrapper ref={contactsRef}>
-      <SectionTitleHeadline>
-        {sectionsTitles.contacts.text}
-      </SectionTitleHeadline>
       <SectionWrapper>
+        <SectionTitleWithArrows>
+          {sectionsTitles.contacts.text}
+        </SectionTitleWithArrows>
         <ContactsFlexWrapper>
           <ContactsCards />
         </ContactsFlexWrapper>
