@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/static/js/main.d93ef548.js",
+    "main.js": "/static/js/main.a80f9bb3.js",
     "static/media/home_background.jpg": "/static/media/home_background.7d85ae1e92741698a66f.jpg",
     "static/media/home_background_1090.jpg": "/static/media/home_background_1090.6252b6371787d4706118.jpg",
     "static/media/distribution.jpg": "/static/media/distribution.eca9077149a4739ae29e.jpg",
@@ -15,7 +15,6 @@
     "static/media/tp2.jpg": "/static/media/tp2.ab3f5745cef40bf35b64.jpg",
     "static/media/assembling_project_stage.webp": "/static/media/assembling_project_stage.c1938d9241d4bd7433d1.webp",
     "static/media/factory.webp": "/static/media/factory.db9887d8633818aa7064.webp",
-    "static/media/electrical_installation.webp": "/static/media/electrical_installation.344ed603921fc746ff77.webp",
     "static/media/FC6kV.jpg": "/static/media/FC6kV.c1d6ead58c58f81c0647.jpg",
     "static/media/distribution_img_1.webp": "/static/media/distribution_img_1.e6b17d96dabb01e0f3bb.webp",
     "static/media/final_project_stage.webp": "/static/media/final_project_stage.8ab51f8035410beefc36.webp",
@@ -34,9 +33,9 @@
     "static/media/scroll_to_top_arrow.svg": "/static/media/scroll_to_top_arrow.92519fdfa44201a2a558a97c94c5efed.svg",
     "static/media/email.svg": "/static/media/email.bc557e5aef7932daf51ae0a634ec88d4.svg",
     "static/media/list_marker.svg": "/static/media/list_marker.843e359c3407f03a6080d346fee33408.svg",
-    "main.d93ef548.js.map": "/static/js/main.d93ef548.js.map"
+    "main.a80f9bb3.js.map": "/static/js/main.a80f9bb3.js.map"
   },
   "entrypoints": [
-    "static/js/main.d93ef548.js"
+    "static/js/main.a80f9bb3.js"
   ]
 }
