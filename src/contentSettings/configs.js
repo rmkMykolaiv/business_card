@@ -13,7 +13,6 @@ import assemblingProjectStage from "../assets/img/assembling_project_stage.webp"
 import finalProjectStage from "../assets/img/final_project_stage.webp";
 import factory from "../assets/img/factory.webp";
 import cementFactory from "../assets/img/cement_factory.webp";
-import electrical_installation from "../assets/img/electrical_installation.webp";
 import generator from "../assets/img/generator.webp";
 import FC6kV from "../assets/img/FC6kV.jpg";
 import dimateo from "../assets/img/dimateo.jpg";
@@ -196,7 +195,7 @@ export const contactsUkr = [
     id: id++,
     img: emailImg,
     title: "ПОШТА",
-    info: "aleksandr.dermilov @ukr.net",
+    info: "aleksandr.dermilov@ukr.net",
   },
   {
     id: id++,
@@ -463,7 +462,7 @@ export const articlesNewsUkr = [
     id: id++,
     attributes: {
       title: `Комплекс електромонтажних робіт для ПрАТ "Івано-Франківськцемент"`,
-      img: electrical_installation,
+      img: cementFactory,
       article: [
         {
           id: id++,
